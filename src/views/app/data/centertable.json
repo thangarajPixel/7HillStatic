@@ -1,0 +1,22 @@
+[
+    {
+        "image": "../../images/products/center-table/npd-1-center-table.jpg",
+        "title": "NPD Center Table 1"
+    },
+    {
+        "image": "../../images/products/center-table/npd-2-center-table.jpg",
+        "title": "NPD Center Table 2"
+    },    
+    {
+        "image": "../../images/products/center-table/npd-3-center-table.jpg",
+        "title": "NPD Center Table 3"
+    },    
+    {
+        "image": "../../images/products/center-table/npd-4-center-table.jpg",
+        "title": "NPD Center Table 4"
+    },    
+    {
+        "image": "../../images/products/center-table/npd-5-center-table.jpg",
+        "title": "NPD Center Table 5"
+    }
+]
