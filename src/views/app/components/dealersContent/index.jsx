@@ -9,10 +9,22 @@ import { BsCheck2Circle } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import DealersIcon1 from '../../../../assets/images/icn-1.png';
+import DealersIcon2 from '../../../../assets/images/icn-2.png';
+import DealersIcon3 from '../../../../assets/images/icn-3.png';
+import DealersIcon4 from '../../../../assets/images/icn-4.png';
+import DealersNumber1 from '../../../../assets/images/1.png';
+import DealersNumber2 from '../../../../assets/images/2.png';
+import DealersNumber3 from '../../../../assets/images/3.png';
+import DealersNumber4 from '../../../../assets/images/4.png';
+import DealersProcedureImage1 from '../../../../assets/images/board-1.png';
+import DealersProcedureImage2 from '../../../../assets/images/board-2.png';
+import DealersProcedureImage3 from '../../../../assets/images/board-3.png';
+import DealersProcedureImage4 from '../../../../assets/images/board-4.png';
 import { useForm } from "react-hook-form";
 import { ErrorMessage } from "@hookform/error-message";
 import { DealersEnquiryResponse } from "../../helpers/FormResponse";
+import CountUp from 'react-countup';
 // import { API_URL } from "../../constant/apiRoute";
 
 const DealersSection = () => {
@@ -56,18 +68,84 @@ const DealersSection = () => {
 
     return (
         <>
-          <section className="pb-5">
+          <section className="light-gray-bg">
             <Container>
               <Row className="justify-content-center">
-              <Col xs={12} sm={12} md={12} lg={10} xl={9}>
+              <Col xs={12} sm={12} md={12} lg={10} xl={8}>
                 <h1 className="heading2 mar-bot-20 text-center">Stay on Top of the Furniture World!</h1>
-                <p className="text-center">Do not miss the opportunity to become a Dealer and/or Distributor of South India’s Largest Solid Wood Furniture Manufacturer with a business experience of 80 years and an extensive range of products.</p>
+                <p className="text-center">Become the Dealer/Distributor of South India’s largest solid wood, metal, and panel manufacturer of furniture that has been in the business since 1937.</p>
                 <p className="text-center">Join our Dealer network today and unlock new benefits.</p>
               </Col>
               </Row>
+              <Row className="justify-content-center">
+                <Col xs={12} sm={6} md={6} lg={6} xl={3}>
+                  <div className="dealers-icons">
+                  <img src={DealersIcon1} alt="" />
+                  <CountUp duration={5} decimals={3} decimal="," end={300} /> + SQ.FT.<small>Factory in Chennai</small>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={6} xl={3}>
+                  <div className="dealers-icons">
+                  <img src={DealersIcon2} alt="" />
+                  ISO,FSC & BSCI<small>Certified</small>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={6} xl={3}>
+                  <div className="dealers-icons">
+                  <img src={DealersIcon3} alt="" />
+                  <CountUp duration={3} end={500} /> + <small>Range of Products</small>
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={6} xl={3}>
+                  <div className="dealers-icons">
+                  <img src={DealersIcon4} alt="" />
+                  <CountUp duration={4} end={300} /> + <small>Skilled Employees</small>
+                  </div>
+                </Col>
+              </Row>
             </Container>
           </section>
-          <section className="pt-0">
+          
+          <section className="dealers-bg2">
+            <Container>
+              <Row className="justify-content-center">
+                <Col xs={12} sm={12} md={12} lg={8} xl={6}>
+                  <h1 className="heading2 mar-bot-20 text-center">The onboarding procedure for Dealers / Distrubutor</h1>
+                </Col>
+              </Row>
+              <Row className="justify-content-center">
+                <Col xs={12} sm={6} md={6} lg={3} xl={3}>
+                  <div className="dealers-procedure-image">
+                    <img src={DealersNumber1} alt="" className="dealers-number animate1" />
+                    <img src={DealersProcedureImage1} alt="" />
+                    Fill the Dealers / Distributors Enquiry Form
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={3} xl={3}>
+                  <div className="dealers-procedure-image mar-top">
+                    <img src={DealersNumber2} alt="" className="dealers-number animate2" />
+                    <img src={DealersProcedureImage2} alt="" />
+                    Hevea Furniture team will get in touch with you within 48 Hours
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={3} xl={3}>
+                  <div className="dealers-procedure-image">
+                    <img src={DealersNumber3} alt="" className="dealers-number animate1" />
+                    <img src={DealersProcedureImage3} alt="" />
+                    Our team will perform a quick KYC check
+                  </div>
+                </Col>
+                <Col xs={12} sm={6} md={6} lg={3} xl={3}>
+                  <div className="dealers-procedure-image mar-top">
+                    <img src={DealersNumber4} alt="" className="dealers-number animate2" />
+                    <img src={DealersProcedureImage4} alt="" />
+                    Finally, a meeting with Dealers/Distributors at our head office and Sign up
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+          <section>
             <img src={PageBg2} alt="" className="rellax dealers-bg1 img-fluid" data-rellax-speed="6" />
           <Container>
             <Row>
@@ -105,7 +183,7 @@ const DealersSection = () => {
             <Container>
               <Row className="justify-content-center">
               <Col xs={12} sm={12} md={12} lg={8} xl={6}>
-                <h2 className="heading2 mar-bot-20 text-center">Grow with Us</h2>
+                <h2 className="heading2 mar-bot-20 text-center">Do you wish to join our growing Dealers / Distrubutor Network</h2>
                 <p className="text-center">Please submit your details below, and a representative from our team will get in touch with you.</p>
               </Col>
               </Row>

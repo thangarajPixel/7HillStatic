@@ -46,28 +46,23 @@ const Footer = () => {
                 <p className="footer-text1"><Link rel="noopener noreferrer" onClick={() => openInNewTab('mailto:info@7hillfurniture.com')} > <TfiEmail /> info@7hillfurniture.com</Link></p>
                 <ListGroup>
                       <ListGroup.Item>
-                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.instagram.com/7hillfurniturerefurbishing/')} >
+                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.instagram.com/07hillfurniture/')} >
                           <AiOutlineInstagram />
                         </Link>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.linkedin.com/company/7hill-refurbishing%20/')} >
+                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.linkedin.com/company/7hillfurniture/')} >
                           <RiLinkedinFill />
                         </Link>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://twitter.com/7hillR')} >
+                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://twitter.com/7hillfurniture/')} >
                           <RiTwitterFill />
                         </Link>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.facebook.com/7hillfurniturerefurbishing/')} >
+                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.facebook.com/7hillfurniture/')} >
                           <RiFacebookFill />
-                        </Link>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <Link rel="noopener noreferrer" onClick={() => openInNewTab('https://www.youtube.com/@7hillfurniturerefurbishing998')} >
-                          <RiYoutubeFill />
                         </Link>
                       </ListGroup.Item>
                 </ListGroup>
