@@ -10,7 +10,7 @@ import { RiMapPinLine } from 'react-icons/ri';
 import { TfiEmail } from 'react-icons/tfi';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import WhatsappIcon from '../../../assets/images/whatsapp-icon.png';
-import { RiLinkedinFill, RiFacebookFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri';
+import { RiLinkedinFill, RiFacebookFill, RiTwitterFill } from 'react-icons/ri';
 import ListGroup from 'react-bootstrap/ListGroup';
 
 const openInNewTab = url => {
